@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+backend/ai/
+venv/
+.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+# Environment variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+ai/
+venv/
