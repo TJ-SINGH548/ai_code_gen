@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 
+
+const API_URL = process.env.REACT_APP_BACKEND_URL;
+
+
 function App() {
   const [prompt, setPrompt] = useState("");
   const [language, setLanguage] = useState("Python");
@@ -23,7 +27,7 @@ function App() {
   setCode("");
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/generate", {
+    const response = await fetch(`${API_URL}/generate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt, language }),
