@@ -34,7 +34,7 @@ def is_refinement_only(prompt: str) -> bool:
 MAX_MESSAGES = 4  # keep last 2 user + 2 assistant messages
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[""],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
