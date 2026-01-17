@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from backend.schemas import UserQuery
-from backend.agents import assistant, user_proxy
-from backend.utils import build_prompt
+from schemas import UserQuery
+from agents import assistant, user_proxy
+from utils import build_prompt
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
