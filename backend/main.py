@@ -34,7 +34,7 @@ def is_refinement_only(prompt: str) -> bool:
 MAX_MESSAGES = 4  # keep last 2 user + 2 assistant messages
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[""],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -45,13 +45,13 @@ def generate_code(query: UserQuery):
     base_prompt = query.prompt
 
 
-# 1️⃣ Too short
+# Too short
     if len(prompt_text) < 10:
         return {
             "code": "",
             "explanation": "❗ Your prompt is too short. Please describe the task in more detail."
         }
-# 2️⃣ Ambiguous phrases detection
+# Ambiguous phrases detection
     generic_phrases = [
     "write me a code",
     "write a code",
