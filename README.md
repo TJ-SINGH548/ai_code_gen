@@ -156,16 +156,22 @@ GitHub push protection enabled
 📸 Screenshots (For Evaluation)
 
 Backend live on Render
+<img width="907" height="854" alt="backend_render_live" src="https://github.com/user-attachments/assets/ae6d0729-24c7-4b92-859d-a7254b977d67" />
 
 Frontend generating code
+<img width="906" height="850" alt="frontend_generation" src="https://github.com/user-attachments/assets/247a48a9-72d0-4ecc-84ed-3527bd2f3b24" />
 
 Error handling example
+<img width="902" height="531" alt="error_handling" src="https://github.com/user-attachments/assets/5ef91529-dc66-481d-9b06-0e7fe52a2dc3" />
 
 Context-based refinement example
+<img width="904" height="909" alt="refinement_generation" src="https://github.com/user-attachments/assets/6248c542-bafa-4600-8dc3-68ef8fb0e7bb" />
 
 Test cases passing
+<img width="1101" height="364" alt="tests_passed" src="https://github.com/user-attachments/assets/b0cb810c-4f39-4b48-9dc4-7fe5f0ad6981" />
 
 GitHub repository structure
+<img width="306" height="582" alt="github_repo" src="https://github.com/user-attachments/assets/d00e6dce-d06f-42d1-8bf6-5bf10c6dcf73" />
 
 📌 Future Improvements
 
